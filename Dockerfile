@@ -6,7 +6,7 @@ RUN apt-get update ;\
     apt-get install -y software-properties-common ;\
     add-apt-repository ppa:brightbox/ruby-ng-experimental ;\
     apt-get update ;\
-    apt-get install -y ruby2.3 ruby2.3-dev build-essential curl libreadline-dev libcurl4-gnutls-dev libpq-dev libxml2-dev libxslt1-dev zlib1g-dev libssl-dev git-core libmagickwand-dev libopencv-dev python-opencv postgresql-client
+    apt-get install -y ruby2.3 ruby2.3-dev build-essential curl libreadline-dev libcurl4-gnutls-dev libpq-dev libxml2-dev libxslt1-dev zlib1g-dev libssl-dev git-core libmagickwand-dev libopencv-dev python-opencv postgresql-client libffi-dev
 
 RUN \
     cd /opt ;\
